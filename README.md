@@ -1,12 +1,12 @@
 # Service Discovery
 
-**Service Discovery** is used in distributed systems, with the main aim of helping servers get information about other servers like IP address. So, it can avail services of that server.
+**Service Discovery** is used in distributed systems, with the main aim of helping servers get information about other servers like IP address. So, it can avail the services of that server.
 
   
 
-→ This prevents each server from maintaining a static list of other server’s information.
+→ This prevents each server from maintaining a static list of other servers' information.
 
-→ The registry which stores information of all the servers is dynamic in nature as it checks regularly if the servers in the network are active or not. If not it removes it from the list, so other servers don’t request for its services.
+→ The registry which stores information of all the servers, is dynamic in nature as it checks regularly if the servers in the network are active or not. If not it removes it from the list, so other servers don’t request for its services.
 
 
 # Tech-Stack
@@ -34,7 +34,7 @@ Note:  All the modules have been downloaded with type protection.
 
 
 1. Mock Server sends a request to the Registry.
-2. The registry handles the requesut and utilises the prisma client to make CRUD operations in the DB.
+2. The registry handles the request and utilises the Prisma client to make CRUD operations in the DB.
 3. The appropriate changes have been made to the NEON-DB ( Postgres-SQL ).
 4. The Registry responds back to the server.
 
@@ -44,7 +44,7 @@ Please check out the Google Doc: [Google_Doc](https://docs.google.com/document/d
 
 ## Outputs 
 
-1. Server Activation / entry into the Registry
+1. Server Activation/entry into the Registry
    ![GIT-HUB-1](https://github.com/user-attachments/assets/19581c33-61c0-417c-a1b0-4c0ba2c958f0)
 
 2. Server Details Fetch
